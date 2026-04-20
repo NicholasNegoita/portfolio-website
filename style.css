@@ -20,3 +20,18 @@ body {
     font-size: 30px;
     color: white
 }
+
+#btn {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    height: 80px;
+    background-color: green;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#btn:hover {
+    background-color: #45a049;  
+    transform: translateY(-2px); 
+}
