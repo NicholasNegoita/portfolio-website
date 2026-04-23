@@ -7,18 +7,38 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="mainHeader">Hello! I am Nicholas Negoita. </h1>
-    <img src="IMG_6356.jpeg" class = "first-image">
 
-    <p id="p1"> I enjoy programming very much and I have experience coding in Java, Python, and C++.</p>
-    <p id="p2"> One project I worked on was a bigram language model. It learns English word pairings from Alice in Wonderland, and generates text by selecting the next most likely word continuously. </p>
-    <p id="p3"> Some of my favorite fields of CS are cryptography and data analysis, but I still have a lot to learn.</p>
-    <p id="p4"> Aside from that, one of my favorite hobbies is competitive Rubik's Cube solving.</p>
-    <button id="btn" onclick="document.location='https://github.com/NicholasNegoita'">
-             My Github
-    </button>
+    <div class = "header">
+        <h1>Hello! I am Nicholas Negoita. </h1>
+        <button id="darkmode">Dark Mode</button>
+        <img src="IMG_6356.jpeg" class = "first-image">
+    </div>
     
+    <h2>About Me</h2>
+    <div class="aboutme">
+        <p>I enjoy programming very much and I have experience coding in Java, Python, and C++.</p>
+        <p>Some of my favorite fields of CS are cryptography and data analysis, but I still have a lot to learn.</p>
+        <p>Aside from that, one of my favorite hobbies is competitive Rubik's Cube solving.</p>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="projects">
+        <p>One project I worked on was a bigram language model. It learns English word pairings from "Alice in Wonderland", and generates text by selecting one of the next most likely word continuously.</p>
+        <p>It's an improvement from a previous design that used pre-processed bigram word pairings from the internet. </p>
+        <p>That design had no filter to it and could generate some interesting outputs, to say the least.</p>
+    </div>
 
 
+    <div class="github-section">
+
+        <img src="https://pngimg.com/uploads/github/github_PNG80.png" class="second-image">
+        <button id="btn" onclick="document.location='https://github.com/NicholasNegoita'">
+             My Github
+        </button>
+        <img src="https://pngimg.com/uploads/github/github_PNG80.png" class="second-image">
+
+    </div>
+   
+    <script src="script.js"></script>
 </body>
 </html>
